@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgb(197, 134, 233), rgb(179, 166, 190));
+}
+
+a p {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  /* height: 1100px;
+  margin: 60px 100px; */
+  height: 70rem;
+  margin: 60px 100px;
+  background-image: url(./images/Universe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.vr-image {
+  /* height: 300px;
+  width: 200px; */
+  height: 30rem;
+  width: 20rem;
+  border-radius: 50px;
+  background-image: url(./images/VR\ Image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  /* right: 50px; */
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+
+  /* justify-content: space-between; */
+  /* margin: 50px; */
+  position: relative;
+  top: 20px;
+  /* z-index: 10; */
+  /* margin: 150px; */
+  margin: 10rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  /* width: 600px; */
+  /* width: 90%; */
+  width: 70%;
+  flex-direction: row;
+  gap: 35px;
+  margin-left: 10px;
+  /* justify-content: space-evenly; */
+}
+
+.logo {
+  font-size: 23px;
+  position: relative;
+  bottom: 20px;
+  font-family: "DM Serif Display", serif;
+}
+
+.login ul {
+  display: flex;
+  width: 180px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.signup {
+  border: 3px solid rgb(114, 114, 221);
+  border-radius: 15px;
+
+  /* padding: 5px; */
+  padding: 0.5rem;
+  position: relative;
+  bottom: 7px;
+}
+
+h1 {
+  /* font-size: 60px; */
+  font-size: 4rem;
+  position: relative;
+  top: 35px;
+  word-spacing: 40px;
+  font-family: "DM Serif Display", serif;
+}
+
+.gear-up {
+  font-size: 30px;
+  font-family: "DM Serif Display", serif;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: -1;
+  height: 430px;
+  margin: -70px 50px;
+}
+
+.left {
+  position: relative;
+  bottom: 25px;
+}
+
+.left > p {
+  margin-top: 2.5rem;
+}
+.right {
+  background-image: url(./images/VR\ Image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 400px;
+  width: 300px; */
+  /* height: 35rem;
+  width: 30rem; */
+  height: 95%;
+  width: 30%;
+  position: relative;
+  /* bottom: 160px; */
+  bottom: 5rem;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+.playnow {
+  height: 30px;
+  width: 90px;
+  background: radial-gradient(rgba(225, 236, 67, 0.5), rgb(99, 24, 240));
+  border-radius: 10px;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.see-demo {
+  position: relative;
+  left: 10px;
+}
+
+.see-demo a {
+  text-decoration: none;
+  color: white;
+}
+
+.vr {
+  color: rgb(104, 104, 235);
+}
+
+.info {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 80px;
+  /* margin: 0px 50px; */
+  margin: 1rem 3rem;
+}
+
+.video {
+  /* height: 240;
+  width: 300px; */
+  height: 20%;
+  width: 60%;
+  position: relative;
+  left: 50px;
+  /* top: 25px; */
+  border-radius: 15px;
+}
+
+video {
+  position: relative;
+  right: 4px;
+  bottom: 5px;
+  border: 3px solid rgb(104, 104, 235);
+  border-radius: 15px;
+  width: 60%;
+  height: 20rem;
+}
+
+.start-playing {
+  height: auto;
+  /* width: 600px; */
+  width: 60%;
+}
+
+.anchor {
+  background: radial-gradient(rgba(225, 236, 67, 0.5), rgb(99, 24, 240));
+  color: white;
+  border-radius: 15px;
+  font-size: 25px;
+  width: 170px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.anchor a {
+  color: white;
+}
+
+.qualities {
+  height: auto;
+  /* width: 180px; */
+  width: 70%;
+  position: relative;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.qualities ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+footer {
+  height: 100px;
+  margin: 35px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 80px;
+}
